@@ -8,7 +8,7 @@ Assignment 1
 
 Assignment 2
 	Lagrange Interpolant
-	Newton's Dividedd Differences
+	Newton's Divided Differences
 
 Assignment 3
 	(n+1) - Point Formula
