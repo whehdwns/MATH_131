@@ -29,3 +29,7 @@ Assignment 5
 		Gaussian elimination with backward substitution
 		LU factorization with forward and backward substitution
 		Gauss-Seidel method.
+
+Assignment 6
+		Best-fit line/least squares 
+		Lagrange interpolation with Chebyshev points
