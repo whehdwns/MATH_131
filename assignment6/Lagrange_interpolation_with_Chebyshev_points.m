@@ -3,12 +3,13 @@ f =@(x) (1./(1+x.^2));
 datx =[-3:1:3];
 x = [-3:0.01:3]';
 n = 7; 
-cheb_points = cos(pi*[1:2:2*n-1]/(2*n));
-daty1 = f(cheb_points);
-daty2 = f(datx);
+cheb_points =3*cos(pi*[1:2:2*n-1]/(2*n));
+
+daty1 = f(datx);
+daty2 = f(cheb_points);
 
 P1= Lagrange_poly(x, datx, daty1);
-P2 = Lagrange_poly(x, datx, daty2);
+P2 =Lagrange_poly(x, cheb_points, daty2);
 
 figure;
 plot(x, f(x),x,P1,'o',x,P2,'--k','MarkerSize',14,'Linewidth',2);
